@@ -1,13 +1,13 @@
 # Interview
 
-[HTML](./html.md)
-[CSS]
-[Javascript]
-[HTTP]
+- [HTML](./html.md)
+- [CSS]
+- [Javascript]
+- [HTTP]
 
-[Bootstrap]
-[jQuery]
-[React]
-[Typescript]
+- [Bootstrap]
+- [jQuery]
+- [React]
+- [Typescript]
 
-[Git]
+- [Git]
