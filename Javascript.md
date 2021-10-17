@@ -27,11 +27,11 @@ event_propagation
 
 https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md
 
-### [Explain event delegation](Javascript/event-delegation.md) 事件委托
+[Explain event delegation](Javascript/event-delegation.md) 事件委托
 
 ---
 
-## [What is prototype chain, Explain how prototypal inheritance works](Javascript/prototype.md) 原型链 原型继承
+[What is prototype chain, Explain how prototypal inheritance works](Javascript/prototype.md) 原型链 原型继承
 
 写一个原型继承的 Sample
 
@@ -39,21 +39,27 @@ https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md
 
 ## Scope & this
 
-### [Explain how `this` works in JavaScript](Javascript/this.md)
+[Explain how `this` works in JavaScript](Javascript/this.md)
 
-### [arrow function](Javascript/this.md)
+[arrow function](Javascript/this.md)
 
-### [What's the difference between .call and .apply?](Javascript/this.md)
+[What's the difference between .call and .apply?](Javascript/this.md)
 
-### [Explain Function.prototype.bind.](Javascript/this.md)
+[Explain Function.prototype.bind.](Javascript/this.md)
 
-### scope, lexical scope 词法作用域
+scope, lexical scope 词法作用域
 
 `this`: Dynamic scope, run-time binding
 `arrow function`: Lexical scope, author-time
+
+[Coding Problems, Temporal Dead Zone](Javascript/code/this.md)
+
+[Coding Problems, var, let 和 const 的区别](Javascript/code/let.md)
 
 ---
 
 ## Event loop
 
-## [What is a closure, and how/why would you use one?](Javascript/closure.md) 闭包
+[Coding Problems, async setTimeout](Javascript/code/async.md)
+
+[What is a closure, and how/why would you use one?](Javascript/closure.md) 闭包
