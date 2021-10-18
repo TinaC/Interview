@@ -6,6 +6,12 @@
 
 Multiple elements in HTML can have the same class value, whereas a value of id attribute of one element cannot be associated with another HTML element.
 
+- Describe the difference between a cookie, sessionStorage and localStorage.
+
+https://frontendinterviewhandbook.com/html-questions/#describe-the-difference-between-a-cookie-sessionstorage-and-localstorage
+
+- Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+
 ## HTML5
 
 - [What are some of the advantages of HTML5 over its previous versions?](./HTML/html5.md)

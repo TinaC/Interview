@@ -21,11 +21,7 @@ coerce 规则见《You Don't Know JS》中册
 
 ## Event
 
-### event bubble
-
-event_propagation
-
-https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md
+[event propagation 传播, event bubble](https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md)
 
 [Explain event delegation](Javascript/event-delegation.md) 事件委托
 
@@ -43,9 +39,9 @@ https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md
 
 [arrow function](Javascript/this.md)
 
-[What's the difference between .call and .apply?](Javascript/this.md)
+[What's the difference between .call() and .apply()?](Javascript/this.md)
 
-[Explain Function.prototype.bind.](Javascript/this.md)
+[Explain Function.prototype.bind()](Javascript/this.md)
 
 scope, lexical scope 词法作用域
 
