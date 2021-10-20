@@ -31,3 +31,23 @@ https://www.interviewbit.com/java-interview-questions/
 https://juejin.cn/post/7007991848308310024?utm_source=gold_browser_extension#heading-2
 
 https://frontendinterviewhandbook.com/javascript-questions/
+
+
+## Literal Inference
+
+```js
+declare function handleRequest(url: string, method: "GET" | "POST"): void;
+
+const req = { url: "https://example.com", method: "GET" };
+
+// 因为这中间是可能插入代码的，比如 `req.method = "GUESS"`, 所以ts认为req.methods的类型是string, 而不是"GET"
+
+handleRequest(req.url, req.method);
+// Argument of type 'string' is not assignable to parameter of type '"GET" | "POST"'.
+```
+
+expression evaluation 表达式求值
+evaluate: 评估，代码求值
+
+In the above example, `req.method` is inferred to be string, not "GET". 
+Because code can be evaluated求值,执行 between the creation of `req` and the call of `handleRequest` which could assign a new string like "GUESS" to `req.method`, TypeScript considers this code to have an error.
