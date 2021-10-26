@@ -56,6 +56,10 @@ scope, lexical scope 词法作用域
 
 ## Event loop
 
+[macrotask, microtask]()
+
+https://github.com/TinaC/Blog/blob/master/JavaScript/event_loop.md
+
 [Coding Problems, async setTimeout](Javascript/code/async.md)
 
 [What is a closure, and how/why would you use one?](Javascript/closure.md) 闭包
