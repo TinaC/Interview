@@ -9,6 +9,10 @@
 - Null
 - Symbol (ES6)
 
+## Typeof 是 object 的有哪几种类型，分别如何判断
+
+IsArray isNaN
+
 ## What is the difference between == and ===?
 
 https://github.com/TinaC/Blog/blob/master/JavaScript/equlity.md
@@ -63,3 +67,13 @@ https://github.com/TinaC/Blog/blob/master/JavaScript/event_loop.md
 [Coding Problems, async setTimeout](Javascript/code/async.md)
 
 [What is a closure, and how/why would you use one?](Javascript/closure.md) 闭包
+
+---
+
+## Live coding
+
+https://www.freecodecamp.org/news/3-questions-to-watch-out-for-in-a-javascript-interview-725012834ccb/
+
+[Make this work `duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]`](Javascript/code/array.md)
+
+[Write a event delegation](Javascript/event-delegation.md)

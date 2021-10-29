@@ -23,3 +23,44 @@ There is no need to unbind the handler from elements that are removed and to bin
 https://frontendinterviewhandbook.com/javascript-questions/#explain-event-delegation
 https://codeburst.io/the-simple-rules-to-this-in-javascript-35d97f31bde3
 https://stackoverflow.com/a/3127440/1751946
+
+## Coding
+
+https://www.freecodecamp.org/news/3-questions-to-watch-out-for-in-a-javascript-interview-725012834ccb/
+
+顺便考一下原生绑定事件，dom 操作
+
+```js
+<ul id="todo-app">
+  <li class="item">Walk the dog</li>
+  <li class="item">Pay bills</li>
+  <li class="item">Make dinner</li>
+  <li class="item">Code for one hour</li>
+</ul>;
+
+// 如果不用事件委托
+document.addEventListener("DOMContentLoaded", function () {
+  let app = document.getElementById("todo-app");
+  let items = app.getElementsByClassName("item");
+
+  // attach event listener to each item
+  for (let item of items) {
+    item.addEventListener("click", function () {
+      alert("you clicked on item: " + item.innerHTML);
+    });
+  }
+});
+
+// 事件委托
+document.addEventListener("DOMContentLoaded", function () {
+  let app = document.getElementById("todo-app");
+
+  // attach event listener to whole container
+  app.addEventListener("click", function (e) {
+    if (e.target && e.target.nodeName === "LI") {
+      let item = e.target;
+      alert("you clicked on item: " + item.innerHTML);
+    }
+  });
+});
+```

@@ -14,7 +14,7 @@
 
 - [Javascript](./Javascript.md)
 - [Bootstrap]
-- [jQuery]
+- [jQuery](./jQuery.md)
 - [React](./React.md)
 - [Typescript]
 
@@ -54,5 +54,3 @@ evaluate: 评估，代码求值
 
 In the above example, `req.method` is inferred to be string, not "GET".
 Because code can be evaluated 求值,执行 between the creation of `req` and the call of `handleRequest` which could assign a new string like "GUESS" to `req.method`, TypeScript considers this code to have an error.
-
-> 纸上得来终觉浅，绝知此事要躬行
