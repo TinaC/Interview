@@ -1,17 +1,22 @@
 # Javascript
 
-## JS 的基本类型，primitive type
+## [New features](./Javascript/new-feature.md)
 
-- Boolean
-- Number
-- String
-- Undefined
-- Null
-- Symbol (ES6)
+---
 
-## Typeof 是 object 的有哪几种类型，分别如何判断
+* Type
 
-IsArray isNaN
+## [JS 的基本类型，primitive type](./Javascript/primitive-value.md)
+
+## [为什么叫primitive type, 和object的区别是?](./Javascript/primitive-value.md)
+
+## [如何判断这些基本类型，typeof](./Javascript/primitive-value.md)
+
+## [Typeof 是 object 的有哪几种类型，分别如何判断](./Javascript/primitive-value.md)
+
+IsArray isNaN 多了去了
+
+---
 
 ## What is the difference between == and ===?
 
@@ -28,6 +33,8 @@ coerce 规则见《You Don't Know JS》中册
 [event propagation 传播, event bubble](https://github.com/TinaC/Blog/blob/master/JavaScript/event_propagation.md)
 
 [Explain event delegation](Javascript/event-delegation.md) 事件委托
+
+写一个事件委托的例子
 
 ---
 
