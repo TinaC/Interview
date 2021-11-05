@@ -12,7 +12,7 @@
 
 [如何判断这些基本类型，typeof](./Javascript/primitive-value.md)
 
-[Typeof 是 object 的有哪几种类型，分别如何判断](./Javascript/primitive-value.md)
+[typeof 是 object 的有哪几种类型，分别如何判断](./Javascript/primitive-value.md)
 
 ```js
 Array.isArray([1, 2, 3]); // true
@@ -22,9 +22,7 @@ if (variable === null) Number.isNaN(NaN); // true
 
 ---
 
-## What is the difference between == and ===?
-
-https://github.com/TinaC/Blog/blob/master/JavaScript/equlity.md
+[What is the difference between == and ===?](https://github.com/TinaC/Blog/blob/master/JavaScript/equlity.md)
 
 如果类型相同，== & === 是一样的
 如果类型不同， === 直接返回 false, == 先执行类型转换(type conversions / coerce)再进行比较
@@ -39,6 +37,12 @@ coerce 规则见《You Don't Know JS》中册
 [Explain event delegation](Javascript/event-delegation.md) 事件委托
 
 写一个事件委托的例子
+
+stopPropagation will prevent any parent handlers from being executed.
+
+stopImmediatePropagation will prevent any parent handlers and also any other handlers from executing
+
+https://stackoverflow.com/questions/5299740/stoppropagation-vs-stopimmediatepropagation
 
 ---
 

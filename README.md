@@ -16,7 +16,7 @@
 - [Bootstrap]
 - [jQuery](./jQuery.md)
 - [React](./React.md)
-- [Typescript]
+- [Typescript](./Typescript.md)
 
 ---
 
@@ -36,6 +36,8 @@ https://juejin.cn/post/7007991848308310024?utm_source=gold_browser_extension#hea
 
 https://frontendinterviewhandbook.com/javascript-questions/
 
+https://juejin.cn/post/7025439075473571853?utm_source=gold_browser_extension
+
 ## Literal Inference
 
 ```js
@@ -54,3 +56,21 @@ evaluate: 评估，代码求值
 
 In the above example, `req.method` is inferred to be string, not "GET".
 Because code can be evaluated 求值,执行 between the creation of `req` and the call of `handleRequest` which could assign a new string like "GUESS" to `req.method`, TypeScript considers this code to have an error.
+
+---
+
+media query, 问题
+
+标准屏幕 750 -》
+rem
+插件 -》post css ->
+
+map
+let 模块 var
+
+symbol
+
+generator
+
+promise
+aw

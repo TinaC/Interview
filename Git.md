@@ -26,7 +26,7 @@ On the other hand, this also means that the feature branch will have an extraneo
 If main is very active, this can pollute your feature branch’s history quite a bit.
 While it’s possible to mitigate this issue with advanced git log options, it can make it hard for other developers to understand the history of the project.
 
-## git rebase
+## git rebase && git merge
 
 ```sh
 git checkout feature
