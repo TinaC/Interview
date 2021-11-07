@@ -16,7 +16,7 @@
 - [Bootstrap]
 - [jQuery](./jQuery.md)
 - [React](./React.md)
-- [Typescript]
+- [Typescript](./Typescript.md)
 
 ---
 
@@ -36,12 +36,14 @@ https://juejin.cn/post/7007991848308310024?utm_source=gold_browser_extension#hea
 
 https://frontendinterviewhandbook.com/javascript-questions/
 
+https://juejin.cn/post/7025439075473571853?utm_source=gold_browser_extension
+
 ## Literal Inference
 
 ```js
-declare function handleRequest(url: string, method: "GET" | "POST"): void;
+declare function handleRequest(url: string, method: 'GET' | 'POST'): void;
 
-const req = { url: "https://example.com", method: "GET" };
+const req = { url: 'https://example.com', method: 'GET' };
 
 // 因为这中间是可能插入代码的，比如 `req.method = "GUESS"`, 所以ts认为req.methods的类型是string, 而不是"GET"
 
@@ -65,13 +67,29 @@ https://www.typescriptlang.org/docs/handbook/2/functions.html#push-type-paramete
 function firstElement1<Type>(arr: Type[]) {
   return arr[0];
 }
- 
+
 function firstElement2<Type extends any[]>(arr: Type) {
   return arr[0];
 }
- 
+
 // a: number (good)
 const a = firstElement1([1, 2, 3]);
 // b: any (bad)
 const b = firstElement2([1, 2, 3]);
 ```
+
+media query, 问题
+
+标准屏幕 750 -》
+rem
+插件 -》post css ->
+
+map
+let 模块 var
+
+symbol
+
+generator
+
+promise
+aw

@@ -33,8 +33,9 @@ typeof { life: 42 }  === "object";    // true
 // added in ES6!
 typeof Symbol()      === "symbol";    // true
 
-const x = 2n ** 53n;
-typeof x //'bigint'
+typeof 2n ** 53n     === "bigint";    // true
+
+typeof null          === "object";    // true
 
 // 判断null, null is the only primitive value that is "falsy" (aka false-like) but that also returns "object" from the typeof check.
 var a = null;
@@ -52,11 +53,10 @@ typeof new Array() === "object"; // true
 typeof new String() === "object"; // true
 ```
 
-typeof相比primitive type就多了个function
+typeof 相比 primitive type 就多了个 function
+还有 null 是 object
 
 标准：
 https://262.ecma-international.org/5.1/#sec-11.4.3
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#description
-
-
