@@ -54,3 +54,24 @@ evaluate: 评估，代码求值
 
 In the above example, `req.method` is inferred to be string, not "GET".
 Because code can be evaluated 求值,执行 between the creation of `req` and the call of `handleRequest` which could assign a new string like "GUESS" to `req.method`, TypeScript considers this code to have an error.
+
+---
+
+https://www.typescriptlang.org/docs/handbook/2/functions.html#push-type-parameters-down
+
+这俩谁更好
+
+```
+function firstElement1<Type>(arr: Type[]) {
+  return arr[0];
+}
+ 
+function firstElement2<Type extends any[]>(arr: Type) {
+  return arr[0];
+}
+ 
+// a: number (good)
+const a = firstElement1([1, 2, 3]);
+// b: any (bad)
+const b = firstElement2([1, 2, 3]);
+```
